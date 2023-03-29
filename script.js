@@ -32,11 +32,11 @@ const updateBar = (e) => {
 	else if(current === 1){
 		buttons[0].disabled = true;
 	}
-	else{
-		buttons.forEach((button)=>{
-			button.disabled = false;
-		});
-	}
+	 else{
+        buttons.forEach((button) => {
+            button.disabled = false;
+        });
+    }
 	
 }
 
